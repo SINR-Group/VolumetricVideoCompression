@@ -1,0 +1,7 @@
+*.tex
+*.blg
+*.log
+*.lot
+*.out
+mpeg-pcc-tmc2-sw-manual.pdf
+*.toc

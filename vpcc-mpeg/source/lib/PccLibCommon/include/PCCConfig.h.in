@@ -1,0 +1,20 @@
+#define TMC2_VERSION_MAJOR @TMC2_VERSION_MAJOR@
+#define TMC2_VERSION_MINOR @TMC2_VERSION_MINOR@
+
+/* Define to 1 if getrusage(2) is present */
+#cmakedefine01 HAVE_GETRUSAGE
+
+#cmakedefine ENABLE_PAPI_PROFILING
+
+#cmakedefine USE_JMAPP_VIDEO_CODEC
+#cmakedefine USE_HMAPP_VIDEO_CODEC
+#cmakedefine USE_SHMAPP_VIDEO_CODEC
+#cmakedefine USE_HMLIB_VIDEO_CODEC
+#cmakedefine USE_JMLIB_VIDEO_CODEC
+#cmakedefine USE_VTMLIB_VIDEO_CODEC
+#cmakedefine USE_FFMPEG_VIDEO_CODEC
+
+#cmakedefine USE_HDRTOOLS
+
+
+
