@@ -33,14 +33,14 @@ def read_configurations(fn):
     # read paths
     cfg['pathRef'] = config.get('Paths', 'PCA')       
     cfg['pathDeg'] = config.get('Paths', 'PCB')
-    cfg['pathRef_rec'] = config.get('Paths', 'PCA_rec')
-    cfg['pathDeg_rec'] = config.get('Paths', 'PCB_rec')
-    cfg['PathRefImages'] = config.get('Paths', 'RefImages')
-    cfg['PathDegImages'] = config.get('Paths', 'DegImages')
-    cfg['PathRefImages_rec'] = config.get('Paths', 'RefImages_rec')
-    cfg['PathDegImages_rec'] = config.get('Paths', 'DegImages_rec')
-    cfg['pathRefOMs'] = config.get('Paths', 'RefOMs')
-    cfg['pathDegOMs'] = config.get('Paths', 'DegOMs')
+    #cfg['pathRef_rec'] = config.get('Paths', 'PCA_rec')
+    #cfg['pathDeg_rec'] = config.get('Paths', 'PCB_rec')
+    #cfg['PathRefImages'] = config.get('Paths', 'RefImages')
+    #cfg['PathDegImages'] = config.get('Paths', 'DegImages')
+    #cfg['PathRefImages_rec'] = config.get('Paths', 'RefImages_rec')
+    #cfg['PathDegImages_rec'] = config.get('Paths', 'DegImages_rec')
+    #cfg['pathRefOMs'] = config.get('Paths', 'RefOMs')
+    #cfg['pathDegOMs'] = config.get('Paths', 'DegOMs')
     
     # read flags
     cfg['Projected'] = int( config.get('Flags', 'projected') )

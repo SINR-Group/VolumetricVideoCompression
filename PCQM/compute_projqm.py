@@ -145,7 +145,7 @@ def main():
         DegPath = config["pathDeg"]
         refPC = cli_args.a.pop()
         degPC = cli_args.b.pop()
-		if (refPC == ''):
+        if (refPC == ''):
             print('No Reference PC!')
             return
         if (refPC == ''):
@@ -164,7 +164,7 @@ def main():
             DegPath_rec = config["pathDeg_rec"]
             refPC_rc = cli_args.ar.pop()
             degPC_rc = cli_args.br.pop()
-			if (refPC_rc == ''):
+            if (refPC_rc == ''):
                 print('No Recolored Reference PC!')
             return
             if (refPC_rc == ''):
